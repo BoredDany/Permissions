@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactLay">
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="312dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="186dp"
+        android:layout_below="@+id/btnCon"
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:id="@+id/btnCam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_call"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="94dp"
+        android:layout_below="@+id/textCon"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="239dp"
+        android:layout_below="@+id/btnCam"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
